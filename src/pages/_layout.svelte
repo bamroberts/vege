@@ -22,7 +22,7 @@
         grid-area: a;
         align-self: top;
         text-transform:uppercase;
-        font-size:clamp(3em, 10vw, 12em);
+        font-size:clamp(5em, 10vmin, 10em);
         width:100px;
         margin:0;
         line-height:1;
@@ -32,7 +32,7 @@
     h3 {
         grid-area: a;
     color: #E48B3E;
-    font-size: 2vw;
+    font-size: 2em;
     width: 300px;
     border-bottom: 0.4em solid #E48B3E;
     right: 0;
