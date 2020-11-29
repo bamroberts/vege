@@ -32,7 +32,7 @@
     h3 {
         grid-area: a;
     color: #E48B3E;
-    font-size: 3em;
+    font-size: 2vw;
     width: 300px;
     border-bottom: 0.4em solid #E48B3E;
     right: 0;
