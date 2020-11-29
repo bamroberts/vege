@@ -32,7 +32,7 @@
     h3 {
         grid-area: a;
     color: #E48B3E;
-    font-size: 2em;
+    font-size: 1.5em;
     width: 300px;
     border-bottom: 0.4em solid #E48B3E;
     right: 0;
@@ -43,7 +43,7 @@
     padding-bottom: 20px;
     overflow: visible;
     padding-top: 00;
-    margin-top: 0;
+    margin-top: 10px;
     margin-right: 3vw;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.4), 2px 2px 150px rgba(255,255,255.1), 2px 2px 50px rgba(255,255,255.1);
 
