@@ -3,6 +3,7 @@
     import { metatags } from '@roxi/routify'
     metatags.title = 'My Vege Garden'
     metatags.description = 'A subscripotion service for veggies to grow your self'
+    import { fly, fade } from 'svelte/transition';
 
     let sent = false;
 </script>
@@ -69,19 +70,28 @@
         p.sent b {
             color:#E48B3E;
         }
+
+        .holder {
+            display: grid;
+            grid-template-areas: 'c';
+        
+        } 
+        .holder > * {
+            grid-area:c;
+        }
 </style>
 <form on:submit|preventDefault={()=>sent=true}>
     <p>
         My Vege Garden is a subscripton based service to deliver both monthly fresh seedlings and the quiptment needed to grow them.
     </p>
     <hr >
-    
+    <span class=holder>
     {#if sent} 
 
    
-    <p class="sent"> <strong>Thanks!</strong><br />Great to have you on board. We will be in contact when our new vege growing system is closer to launch! Thanks for being a supporter of <b>My Vege Box</b>!</p>
+    <p transition:fade class="sent"> <strong>Thanks!</strong><br />Great to have you on board. We will be in contact when our new vege growing system is closer to launch! Thanks for being a supporter of <b>My Vege Box</b>!</p>
     {:else}
-    <span>
+    <span out:fade>
         <label for=email>Sign up to find out more</label>
         <div>
         
@@ -90,7 +100,7 @@
         </div>
     </span>
     {/if}
-
+</span>
 </form>
 <!-- 
 <div>
