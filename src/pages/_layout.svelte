@@ -44,6 +44,7 @@
     overflow: visible;
     padding-top: 00;
     margin-top: 10px;
+max-width:50%;
     margin-right: 3vw;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.4), 2px 2px 150px rgba(255,255,255.1), 2px 2px 50px rgba(255,255,255.1);
 
