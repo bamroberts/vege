@@ -40,11 +40,11 @@
     text-align: right;
     margin-right: 2em;
     align-self: baseline;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     overflow: visible;
     padding-top: 00;
     margin-top: 10px;
-max-width:50%;
+max-width:40%;
     margin-right: 3vw;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.4), 2px 2px 150px rgba(255,255,255.1), 2px 2px 50px rgba(255,255,255.1);
 
