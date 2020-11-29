@@ -22,7 +22,7 @@
         grid-area: a;
         align-self: top;
         text-transform:uppercase;
-        font-size:max(12vmin, 10em);
+        font-size:clamp(5em, 10vmin, 10em);
         width:100px;
         margin:0;
         line-height:1;
